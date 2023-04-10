@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-size: 25px;
+
+}
+
+body{
+    background-image: url('https://wallpaperaccess.com/full/2241223.jpg');
+    font-weight: 650;
+}
+
+h1{
+    text-align: center;
+    padding: 8px;
+    font-size: 50px;
+    font-weight: 650;
+}
+
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: lightblue;
+    color: black;
+    border-radius: 9px;
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-top: 0;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 5px solid lightblue;
+    padding: 10px;
+    margin: 0;
+  }
+
+  section figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  figcaption{
+    padding: 5px;
+    font-weight: 550;
+  }
+
+  footer p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+  }
